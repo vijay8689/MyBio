@@ -174,7 +174,7 @@ def render_hero():
         if RESUME_PATH.exists():
             st.download_button("Download resume", RESUME_PATH.read_bytes(), file_name=RESUME_PATH.name, use_container_width=True)
         else:
-            st.caption("Add assets/resume.pdf to enable download")
+            st.caption("")
     st.markdown("</div>", unsafe_allow_html=True)
     st.write("")
     cols = st.columns(6)
