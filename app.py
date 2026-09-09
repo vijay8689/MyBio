@@ -553,4 +553,4 @@ with tabs[10]: contact_tab()
 st.divider()
 with st.expander("Hiring Manager View"):
     hiring_view()
-st.caption("Professional portfolio. Sensitive personal identification information is intentionally excluded.")
+st.caption("Professional portfolio. Built with Streamlit. © 2026 Vijay Kumar Kothapalli")
