@@ -20,8 +20,8 @@ EXPERIENCE = [
     {"company": "Wells Fargo", "role": "Lead Software Engineer", "period": "Oct 2021 – Present", "scope": "Web, mobile, API and enterprise Quality Engineering", "tech": "Python · Java · Playwright · Appium · AWS · Azure DevOps · AI/RAG/MCP"},
     {"company": "Dun & Bradstreet", "role": "Senior SDET", "period": "Mar 2021 – Oct 2021", "scope": "Test automation and quality engineering for enterprise products", "tech": "Java · Selenium · REST APIs · CI/CD · Agile"},
     {"company": "Wells Fargo", "role": "Senior Quality Engineer", "period": "Aug 2016 – Mar 2021", "scope": "Automation frameworks, banking platforms and release quality", "tech": "Java · Selenium · Appium · REST Assured · Jenkins · AWS"},
-    {"company": "S&P Global", "role": "Quality Engineer II", "period": "2015 – Aug 2016", "scope": "Functional, API and regression testing", "tech": "Java · Selenium · REST API · SQL · Agile"},
-    {"company": "Syntel Ltd", "role": "Software Engineer", "period": "Nov 2011 – Nov 2015", "scope": "Enterprise application testing and delivery", "tech": "Java · Selenium · SQL · Banking technology"},
+    {"company": "S&P Global", "role": "Quality Engineer II", "period": "Sep 2015 – Aug 2016", "scope": "Functional, API and regression testing", "tech": "Java · Selenium · REST API · SQL · Agile"},
+    {"company": "Syntel Ltd", "role": "Software Engineer", "period": "Nov 2011 – Sep 2015", "scope": "Enterprise application testing and delivery", "tech": "Java · Selenium · SQL · Banking technology"},
 ]
 
 CAPABILITIES = [
