@@ -44,6 +44,7 @@ SKILL_GROUPS = {
     "Domain": ["Payment Processing", "Core Banking", "Commercial Lending", "Liquidity Management", "Financial Analytics"],
 }
 
+
 PROJECTS = [
     ("Enterprise Test Automation Framework", "Scalable automation across web, mobile and APIs", "Java · Python · Selenium · Playwright · Appium", "Improved coverage and accelerated regression feedback", "Lead Software Engineer"),
     ("Agentic RAG AI", "Build an agentic solution grounded in enterprise knowledge", "LangChain · LangGraph · RAG · LLMs", "Applied AI to engineering workflows", "AI / Quality Engineering Architect"),
