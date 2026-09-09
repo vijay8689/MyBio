@@ -519,6 +519,7 @@ def hiring_view():
     st.markdown("<span class='pill'>SDET Manager</span><span class='pill'>GenAI Test Architect</span><span class='pill'>Principal SDET</span><span class='pill'>QA Automation Architect</span><span class='pill'>Quality Engineering Lead</span><span class='pill'>AI Testing Lead</span><span class='pill'>AI Quality Engineering Architect</span><span class='pill'>Agentic AI Quality Architect</span>", unsafe_allow_html=True)
 
 
+
 def contact_tab():
     render_focus_banner("Contact", "Connect focus")
     st.subheader("Contact")
