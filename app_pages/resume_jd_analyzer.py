@@ -1,11 +1,5 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Resume–Job Description Analyzer | Vijay Kumar Kothapalli",
-    page_icon="🔎",
-    layout="wide",
-)
-
 st.title("Resume–Job Description Analyzer")
 st.subheader("A RAG-based system for actionable skill-gap analysis")
 
@@ -21,7 +15,7 @@ experience more relevant to the role they are targeting.
 st.link_button(
     "Open the live Resume–JD Analyzer",
     "https://resumejd-analyzer.streamlit.app/",
-    use_container_width=False,
+    width="content",
 )
 
 st.markdown("### What it provides")

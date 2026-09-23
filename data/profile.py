@@ -45,6 +45,10 @@ SKILL_GROUPS = {
 }
 
 
+PROJECT_LINKS = {
+    "HealthLensAI": "https://health-ai-report.streamlit.app/",
+}
+
 PROJECTS = [
     ("Enterprise Test Automation Framework", "Scalable automation across web, mobile and APIs", "Java · Python · Selenium · Playwright · Appium", "Improved coverage and accelerated regression feedback", "Lead Software Engineer"),
     ("Agentic RAG AI", "Build an agentic solution grounded in enterprise knowledge", "LangChain · LangGraph · RAG · LLMs", "Applied AI to engineering workflows", "AI / Quality Engineering Architect"),
@@ -52,6 +56,7 @@ PROJECTS = [
     ("AI-Powered Testing", "Use AI-assisted generation and synthetic test data", "GenAI · Prompt Engineering · Automation", "Reduced test design friction and supported quality at scale", "Quality Engineering Leader"),
     ("Commercial Lending Automation", "Automate quality for commercial lending workflows", "Banking platforms · API · UI automation", "Supported reliable financial-services delivery", "Quality Engineering Lead"),
     ("CI/CD Continuous Testing", "Integrate automated checks into delivery pipelines", "Jenkins · Azure DevOps · Maven · Docker", "Made quality gates part of release flow", "SDET Lead"),
+    ("HealthLensAI", "Analyze medical reports with LangGraph-orchestrated AI agents", "LangGraph · AI Agents · Python · Streamlit", "Summarizes medical report data, highlights health trends, and surfaces possible risk indicators for review", "Creator & Developer"),
 ]
 
 CERTIFICATIONS = ["ISTQB Certified Tester Foundation Level", "Selenium Test Automation", "REST API Testing & Automation", "Agile & Scrum Practitioner", "AWS Cloud Practitioner / Cloud Fundamentals", "Playwright Test Automation", "Generative AI & Prompt Engineering", "AI-Assisted Software Testing and Quality Engineering", "DevOps & CI/CD", "Anthropic Certified: Claude Code 101", "Microsoft Certified: Azure Developer Associate"]
