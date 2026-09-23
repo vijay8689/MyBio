@@ -7,7 +7,7 @@ import streamlit as st
 
 from data.profile import CAPABILITIES, CERTIFICATIONS, EXPERIENCE, METRICS, PROJECTS, PROFILE, SKILL_GROUPS
 
-st.set_page_config(page_title="Vijay Kumar Kothapalli | Engineering Portfolio", page_icon="VK", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="BIO", page_icon="VK", layout="wide", initial_sidebar_state="expanded")
 
 RESUME_PATH = Path(__file__).parent / "assets" / "resume.pdf"
 BACKGROUND_IMAGE_PATH = Path(__file__).parent / "assets" / "cybersecurity.jpg"
@@ -27,6 +27,7 @@ header[data-testid="stHeader"] { background:rgba(7,17,31,.92); border-bottom:1px
 .block-container { max-width: 1440px; padding: 2.5rem 4rem 4rem; }
 [data-testid="stSidebar"] { background: #091525; border-right: 1px solid var(--line); }
 [data-testid="stSidebar"] * { color: var(--ink); }
+[data-testid="stSidebarCollapseButton"], [data-testid="stSidebarCollapsedControl"], [data-testid="stSidebarCollapseButton"] button, [data-testid="stSidebarCollapsedControl"] button { opacity: 1 !important; visibility: visible !important; }
 .hero { padding: 1rem 0 2rem; border-bottom: 1px solid var(--line); }
 .eyebrow { color:var(--cyan); letter-spacing:.14em; text-transform:uppercase; font-size:.72rem; font-weight:700; }
 h1, h2, h3 { font-family:'Space Grotesk', sans-serif; color:var(--ink) !important; letter-spacing:0; }
@@ -339,7 +340,7 @@ def profile_tab():
             st.markdown(f"<div class='panel' style='margin:.45rem 0'><div class='card-title'>{capability}</div><div class='card-text'>{detail}</div></div>", unsafe_allow_html=True)
     with right:
         st.markdown("### Career signal")
-        values = [14, 9, 45, 65, 40, 1]
+        values = [14, 16, 45, 65, 40, 1]
         labels = ["Experience", "Team led", "Coverage gain", "Regression reduction", "Defect reduction", "Validation days"]
         fig = go.Figure(go.Bar(x=values, y=labels, orientation="h", marker_color=["#67b7ff", "#50e3c2", "#67b7ff", "#50e3c2", "#67b7ff", "#50e3c2"]))
         fig.update_xaxes(showgrid=False, zeroline=False)

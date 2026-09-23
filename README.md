@@ -8,8 +8,8 @@ A Streamlit executive portfolio for Lead Software Engineering, Quality Engineeri
 python -m venv .venv
 .venv\\Scripts\\activate
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run BIO.py
 ```
 
-The app is also deployable directly from Streamlit Community Cloud with `app.py` as the entry point. To enable the resume download button, place a supported PDF or DOCX file at `assets/resume.pdf` or update `RESUME_PATH` in `app.py`.
+The app is also deployable directly from Streamlit Community Cloud with `BIO.py` as the entry point. To enable the resume download button, place a supported PDF or DOCX file at `assets/resume.pdf` or update `RESUME_PATH` in `BIO.py`.
 # MyBio

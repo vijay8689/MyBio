@@ -9,7 +9,7 @@ PROFILE = {
 
 METRICS = [
     ("14+", "Years experience", "Enterprise engineering"),
-    ("9", "Team members led", "Quality Engineering"),
+    ("16", "Team members led", "Quality Engineering"),
     ("45%+", "Automation coverage", "Improvement"),
     ("60–70%", "Regression effort", "Reduction"),
     ("30–50%", "Production defects", "Reduction"),
