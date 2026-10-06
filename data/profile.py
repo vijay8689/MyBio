@@ -47,6 +47,7 @@ SKILL_GROUPS = {
 
 PROJECT_LINKS = {
     "HealthLensAI": "https://health-ai-report.streamlit.app/",
+    "Resume AI Match Analyzer": "https://resumejd-analyzer.streamlit.app/",
 }
 
 PROJECTS = [
@@ -57,6 +58,7 @@ PROJECTS = [
     ("Commercial Lending Automation", "Automate quality for commercial lending workflows", "Banking platforms · API · UI automation", "Supported reliable financial-services delivery", "Quality Engineering Lead"),
     ("CI/CD Continuous Testing", "Integrate automated checks into delivery pipelines", "Jenkins · Azure DevOps · Maven · Docker", "Made quality gates part of release flow", "SDET Lead"),
     ("HealthLensAI", "Analyze medical reports with LangGraph-orchestrated AI agents", "LangGraph · AI Agents · Python · Streamlit", "Summarizes medical report data, highlights health trends, and surfaces possible risk indicators for review", "Creator & Developer"),
+    ("Resume AI Match Analyzer", "Analyze resume-to-job-description alignment with a RAG-based AI system", "RAG · GenAI · Skill extraction · Gap analysis · Streamlit", "Identifies matching skills, missing skills, and improvement areas to help candidates tailor their resumes to target roles", "Creator & Developer"),
 ]
 
 CERTIFICATIONS = ["ISTQB Certified Tester Foundation Level", "Selenium Test Automation", "REST API Testing & Automation", "Agile & Scrum Practitioner", "AWS Cloud Practitioner / Cloud Fundamentals", "Playwright Test Automation", "Generative AI & Prompt Engineering", "AI-Assisted Software Testing and Quality Engineering", "DevOps & CI/CD", "Anthropic Certified: Claude Code 101", "Microsoft Certified: Azure Developer Associate"]

@@ -358,7 +358,7 @@ def projects_tab():
 
     filtered_projects = PROJECTS
     themes = {
-        "AI": [1, 2, 3, 6], "Quality": [0, 3, 4, 5],
+        "AI": [1, 2, 3, 6, 7], "Quality": [0, 3, 4, 5],
         "Banking": [4], "Delivery": [0, 5],
     }
     if project_filter in themes:

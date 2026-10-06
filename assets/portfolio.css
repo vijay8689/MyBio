@@ -1,4 +1,5 @@
 /* Restrained navy, slate and sage palette. */
+.st-emotion-cache-scp8yw.e149qiiz6 { display:none !important; }
 :root { --ink:#edf2f7; --muted:#aebdce; --blue:#9bbce0; --cyan:#8ccbbb; --panel:#172130; --line:#2a384a; }
 .stApp { background:radial-gradient(ellipse at 85% 0%,#1b2b3b 0,transparent 45%),#101722; color:var(--ink); }
 .block-container { width:100%; max-width:none; padding:2rem 2rem 3rem; }
